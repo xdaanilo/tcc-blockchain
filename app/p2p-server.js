@@ -33,7 +33,7 @@ class P2pServer{
 
         this.messageHandler(socket);
 
-        sendChain(socket);
+        this.sendChain(socket);
     }
 
     messageHandler(socket){
